@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+		<parameter name="myName" value="Nesirdin"/>
+        <parameter name="myCareer" value="Student"/>
+          <parameter name="suite-param" value="param"/>
+		<classes>
+			<class name="package1Test.parameterizedTest1" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
